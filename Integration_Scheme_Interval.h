@@ -1,6 +1,7 @@
 #pragma once
 #include "Integration_Scheme.h"
 #include <functional>
+#include <cmath>
 
 namespace Com_Methods
 {
@@ -13,10 +14,10 @@ namespace Com_Methods
 		//Begin и End - начало и конец отрезка 
 		//Num_Segments - число сегментов
 		//Func - подынтегральная функция
-		double Calculate_Integral(const Point &Begin, 
-								  const Point &End, 
+		double Calculate_Integral(const double &Begin,
+								  const double &End,
 								  int Number_Segments,
-								  const std::function<double(const Point &P)>&Func) const;
+								  const std::function<double(const double &P)>&Func) const;
 	};
 }
 

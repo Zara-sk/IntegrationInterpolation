@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/main.cpp">
+		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme.h">
+			<Option target="IntegrationInterpolation"/>
+		</Unit>
+		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme_Interval.cpp">
+			<Option target="IntegrationInterpolation"/>
+		</Unit>
+		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme_Interval.h">
+			<Option target="IntegrationInterpolation"/>
+		</Unit>
+		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Lesson4_Integration.cpp">
+			<Option target="IntegrationInterpolation"/>
+		</Unit>
+		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Point.cpp">
+			<Option target="IntegrationInterpolation"/>
+		</Unit>
+		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Point.h">
 			<Option target="IntegrationInterpolation"/>
 		</Unit>
 		<Unit filename="C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/CMakeLists.txt">

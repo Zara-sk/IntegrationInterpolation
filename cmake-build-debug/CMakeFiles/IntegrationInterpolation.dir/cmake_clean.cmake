@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj"
+  "CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj"
+  "CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj"
+  "CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj"
   "IntegrationInterpolation.exe"
   "IntegrationInterpolation.exe.manifest"
   "IntegrationInterpolation.pdb"

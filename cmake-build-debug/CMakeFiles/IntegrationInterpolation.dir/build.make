@@ -76,32 +76,62 @@ include CMakeFiles/IntegrationInterpolation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/IntegrationInterpolation.dir/flags.make
 
-CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj: CMakeFiles/IntegrationInterpolation.dir/flags.make
-CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj"
-	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IntegrationInterpolation.dir\main.cpp.obj -c C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\main.cpp
+CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj: CMakeFiles/IntegrationInterpolation.dir/flags.make
+CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj: ../Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj"
+	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IntegrationInterpolation.dir\Point.cpp.obj -c C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Point.cpp
 
-CMakeFiles/IntegrationInterpolation.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IntegrationInterpolation.dir/main.cpp.i"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\main.cpp > CMakeFiles\IntegrationInterpolation.dir\main.cpp.i
+CMakeFiles/IntegrationInterpolation.dir/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IntegrationInterpolation.dir/Point.cpp.i"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Point.cpp > CMakeFiles\IntegrationInterpolation.dir\Point.cpp.i
 
-CMakeFiles/IntegrationInterpolation.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntegrationInterpolation.dir/main.cpp.s"
-	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\main.cpp -o CMakeFiles\IntegrationInterpolation.dir\main.cpp.s
+CMakeFiles/IntegrationInterpolation.dir/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntegrationInterpolation.dir/Point.cpp.s"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Point.cpp -o CMakeFiles\IntegrationInterpolation.dir\Point.cpp.s
+
+CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj: CMakeFiles/IntegrationInterpolation.dir/flags.make
+CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj: ../Integration_Scheme_Interval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj"
+	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IntegrationInterpolation.dir\Integration_Scheme_Interval.cpp.obj -c C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Integration_Scheme_Interval.cpp
+
+CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.i"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Integration_Scheme_Interval.cpp > CMakeFiles\IntegrationInterpolation.dir\Integration_Scheme_Interval.cpp.i
+
+CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.s"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Integration_Scheme_Interval.cpp -o CMakeFiles\IntegrationInterpolation.dir\Integration_Scheme_Interval.cpp.s
+
+CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj: CMakeFiles/IntegrationInterpolation.dir/flags.make
+CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj: ../Lesson4_Integration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj"
+	C:\MinGW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\IntegrationInterpolation.dir\Lesson4_Integration.cpp.obj -c C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Lesson4_Integration.cpp
+
+CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.i"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Lesson4_Integration.cpp > CMakeFiles\IntegrationInterpolation.dir\Lesson4_Integration.cpp.i
+
+CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.s"
+	C:\MinGW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\Lesson4_Integration.cpp -o CMakeFiles\IntegrationInterpolation.dir\Lesson4_Integration.cpp.s
 
 # Object files for target IntegrationInterpolation
 IntegrationInterpolation_OBJECTS = \
-"CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj"
+"CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj" \
+"CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj" \
+"CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj"
 
 # External object files for target IntegrationInterpolation
 IntegrationInterpolation_EXTERNAL_OBJECTS =
 
-IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj
+IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj
+IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj
+IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj
 IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/build.make
 IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/linklibs.rsp
 IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/objects1.rsp
 IntegrationInterpolation.exe: CMakeFiles/IntegrationInterpolation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable IntegrationInterpolation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\zaraf\Documents\GitHub\IntegrationInterpolation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable IntegrationInterpolation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\IntegrationInterpolation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

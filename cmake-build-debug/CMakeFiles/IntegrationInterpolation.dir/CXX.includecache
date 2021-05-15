@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme.h
+Point.h
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Point.h
+vector
+-
+
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme_Interval.h
+Integration_Scheme.h
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme.h
+functional
+-
+cmath
+-
+
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Lesson4_Integration.cpp
+iostream
+-
+functional
+-
+Integration_Scheme_Interval.h
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme_Interval.h
+
+C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Point.h
+

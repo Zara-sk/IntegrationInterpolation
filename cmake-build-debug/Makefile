@@ -142,32 +142,86 @@ IntegrationInterpolation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/build
 .PHONY : IntegrationInterpolation/fast
 
-main.obj: main.cpp.obj
+Integration_Scheme_Interval.obj: Integration_Scheme_Interval.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Integration_Scheme_Interval.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Integration_Scheme_Interval.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj
+.PHONY : Integration_Scheme_Interval.cpp.obj
 
-main.i: main.cpp.i
+Integration_Scheme_Interval.i: Integration_Scheme_Interval.cpp.i
 
-.PHONY : main.i
+.PHONY : Integration_Scheme_Interval.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/main.cpp.i
-.PHONY : main.cpp.i
+Integration_Scheme_Interval.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.i
+.PHONY : Integration_Scheme_Interval.cpp.i
 
-main.s: main.cpp.s
+Integration_Scheme_Interval.s: Integration_Scheme_Interval.cpp.s
 
-.PHONY : main.s
+.PHONY : Integration_Scheme_Interval.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/main.cpp.s
-.PHONY : main.cpp.s
+Integration_Scheme_Interval.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.s
+.PHONY : Integration_Scheme_Interval.cpp.s
+
+Lesson4_Integration.obj: Lesson4_Integration.cpp.obj
+
+.PHONY : Lesson4_Integration.obj
+
+# target to build an object file
+Lesson4_Integration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj
+.PHONY : Lesson4_Integration.cpp.obj
+
+Lesson4_Integration.i: Lesson4_Integration.cpp.i
+
+.PHONY : Lesson4_Integration.i
+
+# target to preprocess a source file
+Lesson4_Integration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.i
+.PHONY : Lesson4_Integration.cpp.i
+
+Lesson4_Integration.s: Lesson4_Integration.cpp.s
+
+.PHONY : Lesson4_Integration.s
+
+# target to generate assembly for a file
+Lesson4_Integration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.s
+.PHONY : Lesson4_Integration.cpp.s
+
+Point.obj: Point.cpp.obj
+
+.PHONY : Point.obj
+
+# target to build an object file
+Point.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj
+.PHONY : Point.cpp.obj
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IntegrationInterpolation.dir\build.make CMakeFiles/IntegrationInterpolation.dir/Point.cpp.s
+.PHONY : Point.cpp.s
 
 # Help Target
 help:
@@ -178,9 +232,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... IntegrationInterpolation
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Integration_Scheme_Interval.obj
+	@echo ... Integration_Scheme_Interval.i
+	@echo ... Integration_Scheme_Interval.s
+	@echo ... Lesson4_Integration.obj
+	@echo ... Lesson4_Integration.i
+	@echo ... Lesson4_Integration.s
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
 .PHONY : help
 
 

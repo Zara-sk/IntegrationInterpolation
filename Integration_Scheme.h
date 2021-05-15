@@ -9,9 +9,9 @@ namespace Com_Methods
 	{
 	protected:
 		//узлы интегрирования
-		std::vector<Point> Points;
+		std::vector<double> Nodes;
 		//веса квадратурной формулы
-		std::vector<double> Weight;
+		std::vector<double> Weights;
 	public:
 		//типы квадратурных формул
 		enum Integration_Scheme_Type

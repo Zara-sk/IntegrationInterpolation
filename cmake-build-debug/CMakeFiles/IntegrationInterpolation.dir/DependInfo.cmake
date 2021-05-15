@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/main.cpp" "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/cmake-build-debug/CMakeFiles/IntegrationInterpolation.dir/main.cpp.obj"
+  "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Integration_Scheme_Interval.cpp" "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/cmake-build-debug/CMakeFiles/IntegrationInterpolation.dir/Integration_Scheme_Interval.cpp.obj"
+  "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Lesson4_Integration.cpp" "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/cmake-build-debug/CMakeFiles/IntegrationInterpolation.dir/Lesson4_Integration.cpp.obj"
+  "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/Point.cpp" "C:/Users/zaraf/Documents/GitHub/IntegrationInterpolation/cmake-build-debug/CMakeFiles/IntegrationInterpolation.dir/Point.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

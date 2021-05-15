@@ -4,5 +4,9 @@
     <file url="file://$USER_HOME$/Desktop/Integration_Scheme.h" charset="windows-1251" />
     <file url="file://$USER_HOME$/Desktop/Integration_Scheme_Interval.cpp" charset="windows-1251" />
     <file url="file://$USER_HOME$/Desktop/Integration_Scheme_Interval.h" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Integration_Scheme.h" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Integration_Scheme_Interval.cpp" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Point.h" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
