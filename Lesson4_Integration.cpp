@@ -2,7 +2,7 @@
 #include <functional>
 #include "Integration_Scheme_Interval.h"
 
-void fd_task_number_3()
+void fd_task_number_3_4()
 {
     using namespace std;
     // f - функция, F - первообразная
@@ -38,31 +38,44 @@ void fd_task_number_3()
                     double I_Richardson = I_ch2 + I_Runge;
 
                     cout << "For h = " << h_vector[i] << endl;
-                    cout << "I*            = " << I_True << endl;
-                    cout << "Ih            = " << I_ch << endl;
-                    cout << "I* - Ih       = " << I_True - I_ch << endl;
-                    cout << "dIh / dIh/2   = " << (I_True - I_ch) / (I_True - I_ch2) << endl;
-                    cout << "I Runge       = " << I_Runge << endl;
-                    cout << "I Richardson  = " << I_Richardson << endl;
-                    cout << "dI Richardson = " << I_True - I_Richardson << endl << endl;
+                    cout << "I*            = " << scientific << I_True << endl;
+                    cout << "Ih            = " << scientific << I_ch << endl;
+                    cout << "Ih2           = " << scientific << I_ch2 << endl;
+                    cout << "I* - Ih       = " << scientific << I_True - I_ch << endl;
+                    cout << "dIh / dIh/2   = " << scientific << (I_True - I_ch) / (I_True - I_ch2) << endl;
+                    cout << "I Runge       = " << scientific << I_Runge << endl;
+                    cout << "I Richardson  = " << scientific << I_Richardson << endl;
+                    cout << "dI Richardson = " << scientific << I_True - I_Richardson << endl << endl;
 
                 }
 
 
             };
 
-    std::function<double(const double &x)> f1 = [](const double &x) { return 3*x + 5; };
-    std::function<double(const double &x)> F1 = [](const double &x) { return 3*x*x/2 + 5*x; };
+    // задание 3
 
-    std::function<double(const double &x)> f2 = [](const double &x) { return 5*x*x - x + 3; };
-    std::function<double(const double &x)> F2 = [](const double &x) { return 5*x*x*x/3 - x*x/2 + 3*x; };
+//    std::function<double(const double &x)> f1 = [](const double &x) { return 3; };
+//    std::function<double(const double &x)> F1 = [](const double &x) { return 3*x; };
+//
+//    std::function<double(const double &x)> f2 = [](const double &x) { return 5 - x; };
+//    std::function<double(const double &x)> F2 = [](const double &x) { return 5*x - x/2; };
+//
+//    std::function<double(const double &x)> f3 = [](const double &x) { return -2*x*x + 2*x; };
+//    std::function<double(const double &x)> F3 = [](const double &x) { return -2.0/3*x*x*x + x*x; };
+//    cout << "3" << endl;
+//    calculate(100, f1, F1);
+//    cout << "5-x" << endl;
+//    calculate(100, f2, F2);
+//    cout << "-2x^2 + 2x" << endl;
+//    calculate(100, f3, F3);
 
-    std::function<double(const double &x)> f3 = [](const double &x) { return x*x*x*x - 2*x*x; };
-    std::function<double(const double &x)> F3 = [](const double &x) { return x*x*x*x*x/5 - 2*x*x*x/3; };
+    // задание 4
 
-    calculate(10, f1, F1);
-    calculate(10, f2, F2);
-    calculate(10, f3, F3);
+    std::function<double(const double &x)> f = [](const double &x) { return x*sin(10000*x); };
+    std::function<double(const double &x)> F = [](const double &x) { return - (x*cos(10000*x)) / 10000 + sin(10000*x) / 100000000; };
+    calculate(10000, f, F);
+
+
 }
 
 int main()
@@ -94,7 +107,7 @@ int main()
 //	std::cout << "I            = " << I << std::endl;
 //	std::cout << "I*           = " << I_True << std::endl;
 //	std::cout << "I - I*       = " << std::abs(I - I_True) << std::endl;
-    fd_task_number_3();
+    fd_task_number_3_4();
 
 
 }
